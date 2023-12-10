@@ -2,7 +2,7 @@ def count_elements(lst):
     if lst == []:
         return 0
     return 1 + count_elements(lst[1:])
-my_list = [1, 2, 3, 4, 5]
+my_list = [1, 2, 3, 4]
 count = count_elements(my_list)
 print(count)
 
